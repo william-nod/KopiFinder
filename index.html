@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Here Maps API -->
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"
+    crossorigin></script>
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"
+    crossorigin></script>
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8" crossorigin></script>
+  <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" crossorigin />
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"
+    crossorigin></script>
+  <!-- <script src="https://js.api.here.com/v3/3.1/mapsjs.bundle.js" crossorigin type="module"></script> -->
+
+  <!-- css & js -->
+  <link rel="stylesheet" href="./src/sass/main.scss">
+  <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+  <script src="./src/js/controller.js" defer type="module"></script>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+
+  <title>KopiFinder</title>
+</head>
+
+<body>
+  <main class="container">
+    <section class="app">
+      <h1 class="app__title">☕ KopiFinder</h1>
+      <p class="app__subtitle">Cari cafe / warkop terdekat.</p>
+      <div class="app__results" id="result-container">
+        <!-- <div class="result">
+          <p>Warkop Giras</p>
+          <p>2.0 Km</p>
+        </div>
+        <div class="result">
+          <p>Cafe Senja</p>
+          <p>2.3 Km</p>
+        </div>
+        <div class="result">
+          <p>Cafe Mocha</p>
+          <p>2.6 Km</p>
+        </div>
+        <div class="result">
+          <p>Cafe Mocha</p>
+          <p>2.6 Km</p>
+        </div> -->
+      </div>
+      <p class="app__copyright">&copy; copyright by William Kurniawan</p>
+    </section>
+    <section class="map" id="mapContainer">
+      <div class="map__bookmark-section">
+        <div class="map__bookmark-icon">
+          <img class="map__bookmark-img" src="./src/img/bookmark.svg" alt="bookmark-icon">
+        </div>
+        <div class="map__bookmarks">
+          <!-- <div class="map__bookmark">
+          <p>Warkop Giras</p>
+          <p>2.0 Km</p>
+          <img src="./src/img/delete1.svg" alt="delete-icon">
+        </div>
+        <div class="map__bookmark">
+          <p>McDonald Coffee</p>
+          <p>2.1 Km</p>
+          <img src="./src/img/delete1.svg" alt="delete-icon">
+        </div>
+        <div class="map__bookmark">
+          <p>McDonald Coffee</p>
+          <p>2.1 Km</p>
+          <img src="./src/img/delete1.svg" alt="delete-icon">
+        </div>
+        <div class="map__bookmark">
+          <p>McDonald Coffee</p>
+          <p>2.1 Km</p>
+          <img src="./src/img/delete1.svg" alt="delete-icon">
+        </div>
+        <div class="map__bookmark">
+          <p>McDonald Coffee</p>
+          <p>2.1 Km</p>
+          <img src="./src/img/delete1.svg" alt="delete-icon">
+        </div>
+        <div class="map__bookmark">
+          <p>McDonald Coffee</p>
+          <p>2.1 Km</p>
+          <img src="./src/img/delete1.svg" alt="delete-icon">
+        </div> -->
+        </div>
+      </div>
+
+    </section>
+  </main>
+</body>
+
+</html>
