@@ -67,7 +67,7 @@ const dragMaps = function (map) {
 };
 
 const getCafe = async function (map, lat, lng) {
-  const data = await fetch(`https://discover.search.hereapi.com/v1/discover?at=${lat},${lng}&q=cafe&apiKey=${API_KEY}`).then((res) => res.json()).then(res => res.items);
+  const data = await fetch(`https://discover.search.hereapi.com/v1/discover?at=${lat},${lng}&q=cafe&apiKey=${process.env.API_KEY}`).then((res) => res.json()).then(res => res.items);
   console.log(data);
   data.forEach(item => {
     const html = `
