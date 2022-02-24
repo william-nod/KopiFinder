@@ -1,1 +1,1 @@
-export const API_KEY = `temp`;
+export const API_KEY = ``;
