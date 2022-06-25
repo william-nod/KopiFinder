@@ -2,39 +2,6 @@
   width: 60%;
   position: relative;
   
-  &__bookmark-section {
-    position: absolute;
-    right: 1rem;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
-    align-items: flex-end;
-  }
-
-  &__bookmark-icon {
-    background-color: $color-primary;
-    padding: 1rem;
-    border-radius: 50%;
-    // position: relative;
-    margin-bottom: 1.5rem;
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__bookmark-img {
-    z-index: 200;
-  }
-
-  &__bookmarks {
-    padding: 0rem 4rem;
-    overflow: auto;
-    height: 20rem;
-    z-index: 100;
-  }
-
   &__bookmark {
     background-color: white;
     border-radius: 1.5rem;
